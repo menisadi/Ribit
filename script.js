@@ -8,7 +8,8 @@ function calculateRevenue() {
   const timePeriod = currentYear - initialYear; // Calculate the time period
   
   // Calculate the revenue
-  var revenue = initialAmount * Math.pow((1 + interestRate), timePeriod) * (currentCPI - initialCPI);
+  var inflationRate = ((currentCPI - initialCPI) / initialCPI) * 100;
+  var revenue = initialAmount * Math.pow((1 + interestRate), timePeriod) * inflationRate;
   
   // Display the revenue result
   var resultElement = document.getElementById("revenueResult");
