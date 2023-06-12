@@ -4,9 +4,9 @@ function calculateRevenue() {
   var interestRate = parseFloat(document.getElementById("interestRate").value);
   var initialCPI = parseFloat(document.getElementById("initialCPI").value);
   var currentCPI = parseFloat(document.getElementById("currentCPI").value);
-  
+
   // Calculate the revenue
-  var revenue = initialAmount * ((currentCPI / initialCPI) - 1);
+  var revenue = initialAmount * (1 + interestRate) * (currentCPI - initialCPI);
   
   // Display the revenue result
   var resultElement = document.getElementById("revenueResult");
