@@ -22,7 +22,7 @@ input[type="number"] {
 }
 
 input[type="number"] {
-  width: 80%;
+  width: 90%;
   margin: 0 auto; /* Center the input within the container */
   padding: 10px;
   border: 1px solid #ccc;
@@ -35,6 +35,7 @@ button {
   width: 100%;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: #4CAF50;
   color: #ffffff;
   border: none;
