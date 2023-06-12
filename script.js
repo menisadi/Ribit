@@ -1,5 +1,5 @@
 function calculateRevenue() {
-  var initialAmount = parseFloat(document.getElementById("initialAmount").value);
+  var initialAmount = parseFloat(document.getElementById("initialInvestment").value);
   var initialYear = parseInt(document.getElementById("initialYear").value);
   var interestRate = parseFloat(document.getElementById("interestRate").value) / 100;
   // var initialCPI = parseFloat(document.getElementById("initialCPI").value) / 100;
