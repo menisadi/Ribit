@@ -4,9 +4,11 @@ function calculateRevenue() {
   var interestRate = parseFloat(document.getElementById("interestRate").value);
   var initialCPI = parseFloat(document.getElementById("initialCPI").value);
   var currentCPI = parseFloat(document.getElementById("currentCPI").value);
-
+  const currentYear = new Date().getFullYear(); // Get the current year
+  const timePeriod = currentYear - initialYear; // Calculate the time period
+  
   // Calculate the revenue
-  var revenue = initialAmount * (1 + interestRate) * (currentCPI - initialCPI);
+  var revenue = initialAmount * Math.pow((1 + interestRate), timePeriod) * (currentCPI - initialCPI);
   
   // Display the revenue result
   var resultElement = document.getElementById("revenueResult");
