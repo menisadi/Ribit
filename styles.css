@@ -16,9 +16,9 @@ h1 {
   text-align: center;
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
+label,
+input[type="number"] {
+  margin-bottom: 15px; /* Add more spacing between labels and input elements */
 }
 
 input[type="number"] {
@@ -26,6 +26,7 @@ input[type="number"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  margin-right: 10px; /* Add some right margin */
 }
 
 button {
@@ -44,8 +45,14 @@ button:hover {
   background-color: #45a049;
 }
 
-#result {
+#revenueResult {
   margin-top: 20px;
   font-weight: bold;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
 }
