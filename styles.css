@@ -23,6 +23,7 @@ input[type="number"] {
 
 input[type="number"] {
   width: 80%;
+  margin: 0 auto; /* Center the input within the container */
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
