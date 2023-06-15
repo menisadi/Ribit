@@ -10,7 +10,6 @@ body {
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  box-sizing: border-box;
 }
 
 h1 {
@@ -68,5 +67,6 @@ button:hover {
   .container {
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
   }
 }
