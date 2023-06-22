@@ -69,9 +69,28 @@ button:hover {
   }
   
   input[type="number"] {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
+  body {
+    font-size: 24px; /* Adjust the font size according to your preference */
+  }
+  
+  h1 {
+    font-size: 32px; /* Adjust the font size according to your preference */
+  }
+  
+  h2 {
+    font-size: 28px; /* Adjust the font size according to your preference */
+  }
+  
+  label,
+  input[type="number"] {
+    font-size: 24px; /* Adjust the font size according to your preference */
+  }
+  
+  button {
+    font-size: 24px; /* Adjust the font size according to your preference */
+  }
+  
+  #revenueResult {
+    font-size: 26px; /* Adjust the font size according to your preference */
   }
 }
