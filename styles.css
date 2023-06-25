@@ -67,30 +67,4 @@ button:hover {
     box-sizing: border-box;
     padding: 10px;
   }
-  
-  input[type="number"] {
-  body {
-    font-size: 24px; /* Adjust the font size according to your preference */
-  }
-  
-  h1 {
-    font-size: 32px; /* Adjust the font size according to your preference */
-  }
-  
-  h2 {
-    font-size: 28px; /* Adjust the font size according to your preference */
-  }
-  
-  label,
-  input[type="number"] {
-    font-size: 24px; /* Adjust the font size according to your preference */
-  }
-  
-  button {
-    font-size: 24px; /* Adjust the font size according to your preference */
-  }
-  
-  #revenueResult {
-    font-size: 26px; /* Adjust the font size according to your preference */
-  }
 }
