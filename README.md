@@ -12,6 +12,11 @@ This is a simple website that calculates the total amount of money on an investm
 
 Feel free to modify and use the code according to your needs.
 
+## TODO
+- [ ] Add mouse-hover information.
+- [ ] Add link to CPI data
+- [ ] Change "revenue" to a more fitting term
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
