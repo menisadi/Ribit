@@ -1,4 +1,5 @@
 # Inflation-Linked Investment Calculator
+![logo](icon.jpeg)
 
 This is a simple website that calculates the total amount of money on an investment with a fixed interest rate linked to the consumer price index (CPI). It takes into account the initial investment amount, time period, interest rate, and CPI values to provide the projected total amount at the end of the period.
 
